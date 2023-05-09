@@ -10,4 +10,5 @@ Programming languages included:
 Programming languages to include:
 - You suggest!
 --------
-> *LeoNetwork* is all about 
+> *LeoNetwork* is all about testing new things and exploring. Feel free to use our code as longer as you **respect the license**
+> If you want to, give us an idea of what to make!
