@@ -1,6 +1,5 @@
 # CrossTest
 We're testing how coders of different programming languages can collaborate. Python, PHP, CSS, JS, HTML? We'll include it all.. I hope :)
-Test
 --------
 ### © LeoNetworking - under GNU General Public License
 #### See more at LeoNetworking/CrossTest/LICENSE
