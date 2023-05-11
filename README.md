@@ -1,14 +1,8 @@
-# CrossTest2
-We're testing how coders of different programming languages can collaborate. Python, PHP, CSS, JS, HTML? We'll include it all.. I hope :)
+# CrossTest - branch client
+The branch "client" is for client-side languages such as HTML, partially JS, (PHP) and CSS 
 --------
 ### © LeoNetworking - under GNU General Public License
 #### See more at LeoNetworking/CrossTest/LICENSE
---------
-Programming languages included:
-- C# - starting now.
-
-Programming languages to include:
-- You suggest!
 --------
 > *LeoNetwork* is all about testing new things and exploring. Feel free to use our code as long as you **respect the license**
 >
