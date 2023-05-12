@@ -2,13 +2,103 @@
     <head>
         <meta charset="UTF-8">
         <title>Login - LeoNetwork social</title>
-        <link href="style.css" rel="stylesheet">
     </head>
     <body>
         <center>
             <div id="main">
+                <br>
                 <text>Login</text>
+                <br>
+                <br>
+                <input class="input-slide" type="text" placeholder="Username">
+                <br>
+                <br>
+                <input class="input-slide" type="text" placeholder="Password">
+                <br>
+                <br>
+                <button class="input-slide" onclick="submit()">Submit</button>
+                <br>
+                <br>
+                <t2>I understand and accept the </t2><a href="https://github.com/LeoNetworking/CrossTest/blob/main/PRIVACY.md">Privacy policy</a><input type="checkbox" id="PrivacyPolicy">
             </div>
         </center>
     </body>
+    <style>
+        html {
+            background: url("./jj-ying-7JX0-bfiuxQ-unsplash.jpg") no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            border-radius: 8px;
+        }
+
+        #main {
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 500px;
+            height: 400px;
+            background-color: rgba(255, 255, 255, 0.5);
+            border-radius: 10px;
+            font-family: ANTIC;
+        }
+
+        text {
+            font-size: 400%;
+        } 
+
+        input {
+            background-color: transparent;
+            border: solid 1px black;
+            border-radius: 20px;
+            font-family: ANTIC;
+            padding: 13 50;
+            transition: 0.3s;
+        }
+
+        .input-slide:hover {
+            margin: 20px;
+        }
+
+        input button .input-slide:hover:after {
+            display: block;
+            width: 20px; /* Same as the expanded margin */
+            pointer-events: none; /* Disable interaction on the expanded margin */
+        }
+
+        input:focus {
+            background-color: rgba(255, 255, 255, 0.25);
+            transition: 0.5s;
+        }
+
+        button {
+            background-color: transparent;
+            border: solid 1px black;
+            border-radius: 20px;
+            font-family: ANTIC;
+            font-size: 150%;
+            padding: 13 50;
+            transition: 0.3s;
+        }
+
+        @font-face {
+            font-family: ANTIC;
+            src: url("./AnticDidone-Regular.ttf");
+        }
+    </style>
+    <script>
+        const textToColor = document.getElementsByTagName("t2")[0]
+        const checkbox = document.getElementById("PrivacyPolicy");
+
+        function submit() {
+            if (!checkbox.checked) {
+                textToColor.style.color = "red";
+            }
+            else {
+                alert("Logging in as " + document.getElementsByTagName("input")[0].value)
+            }
+        }
+    </script>
 </html>
